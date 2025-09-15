@@ -1,14 +1,13 @@
----
+﻿---
 layout: post
-title: Releasing Not Pure Poole v0.1.0
+title: Prediction of diabetes using scikit-learn
 author: Songzi Vong
 tags:
-- jekyll theme
-- jekyll
+- machine learning
+- scikit-learn
+- diabetes prediction
 date: 2020-10-01 13:56 +0800
 ---
-The Jekyll theme **Not Pure Poole** v0.1.0 was released!
+这是我做的线上自主点单的微信小程序
 
-Not Pure Poole is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
-
-For more information about this theme, you can read the [README](https://github.com/vszhub/not-pure-poole/blob/master/README.md) file.
+![测试图片](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=Diabetes+Prediction+Model)
