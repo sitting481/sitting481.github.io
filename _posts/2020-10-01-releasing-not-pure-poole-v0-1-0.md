@@ -14,14 +14,14 @@ This is a project that uses multiple machine learning models to predict the risk
 
 ## Table of Contents
 
-- [Project Description and Goal](#Project Description and Goal)
-- [Model Selection and Training](#Model Selection and Training)
-- [Result Analysis](#Result Analysis)
-- [Personal Reflection](#Personal Reflection)
+- [Project Description and Goal](#project-description-and-goal)
+- [Model Selection and Training](#model-selection-and-training)
+- [Result Analysis](#result-analysis)
+- [Personal Reflection](#personal-reflection)
 
 ## Project Description and Goal
 
-This project focuses on diabetes, a chronic metabolic disease. Addressing the issue that traditional prediction methods—based on static factors such as age and gender—have limited accuracy, it aims to use the scikit-learn tool and various machine learning algorithms to build diabetes prediction models. The goal is to improve prediction accuracy and provide technical support for the early screening and intervention of diabetes. By analyzing a diabetes dataset containing 8 features (including the number of pregnancies, glucose levels, and blood pressure), the project compares the performance of different algorithms and ultimately selects high-quality models suitable for diabetes prediction.
+This project focuses on diabetes, a chronic metabolic disease. Addressing the issue that traditional prediction methodsbased on static factors such as age and genderhave limited accuracy, it aims to use the scikit-learn tool and various machine learning algorithms to build diabetes prediction models. The goal is to improve prediction accuracy and provide technical support for the early screening and intervention of diabetes. By analyzing a diabetes dataset containing 8 features (including the number of pregnancies, glucose levels, and blood pressure), the project compares the performance of different algorithms and ultimately selects high-quality models suitable for diabetes prediction.
 
 ## Model Selection and Training
 
@@ -38,30 +38,23 @@ From the overall results, Logistic Regression was the model with the best compre
 *Logistic Regression Result Graph*
 ![Logistic Regression结果图](/images/model-result-2.png)
 
-
 *Random Forest Result Graph*
 ![Random Forest结果图](/images/model-result-3.png)
-
 
 *Decision Tree Result Graph*
 ![Decision Tree结果图](/images/model-result-4.png)
 
-
 *Bagging Result Graph*
 ![Bagging结果图](/images/model-result-5.png)
-
 
 *AdaBoost Result Graph*
 ![AdaBoost结果图](/images/model-result-6.png)
 
-
 *GradientBoosting Result Graph*
 ![GradientBoosting结果图](/images/model-result-7.png)
 
-
 *SVM Result Graph*
 ![SVC结果图](/images/model-result-8.png)
-
 
 ## Personal Reflection
 

@@ -11,10 +11,10 @@ This is a WeChat Mini Program project for online self-service ordering.
 
 ## Table of Contents
 
-- [Project Description and Goal](#Project Description and Goal)
-- [Learning and execution process](#Learning and execution process)
-- [Project Achievements](#Project Achievements)
-- [Personal reflection](#Personal reflection)
+- [Project-Description-and-Goal](#project-description-and-goal)
+- [Learning-and-Execution-Process](#learning-and-execution-process)
+- [Project-Achievements](#project-achievements)
+- [Personal-Reflection](#personal-reflection)
 
 
 ## Project Description and Goal
