@@ -9,7 +9,7 @@ tags: [self-service ordering, miniprogram]
 
 This is a WeChat Mini Program project for online self-service ordering.
 
-## 目录
+## Table of Contents
 
 - [Project Description and Goal](#Project Description and Goal)
 - [Learning and execution process](#Learning and execution process)
@@ -43,15 +43,15 @@ The project developed multiple core pages, including functional modules such as 
 <tr>
 <td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/wechat-home.jpg" alt="微信小程序主页界面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序主页界面</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">WeChat Mini Program Homepage Interface</p>
 </td>
 <td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/wechat-menu.jpg" alt="微信小程序菜单页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序菜单页面</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">WeChat Mini Program Menu Page</p>
 </td>
 <td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/wechat-order.jpg" alt="微信小程序订单页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序订单页面</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">WeChat Mini Program Product Customization Page</p>
 </td>
 </tr>
 </table>
@@ -60,15 +60,15 @@ The project developed multiple core pages, including functional modules such as 
 <tr>
 <td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/wechat-shopcar.jpg" alt="微信小程序购物车页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序购物车页面</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">WeChat Mini Program Shopping Cart Page</p>
 </td>
 <td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/wechat-refund.jpg" alt="微信小程序退款申请页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序退款申请页面</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">WeChat Mini Program Refund Application Page</p>
 </td>
 <td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/wechat-me.jpg" alt="微信小程序个人中心页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序个人中心页面</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">WeChat Mini Program Personal Center Page</p>
 </td>
 </tr>
 </table>
