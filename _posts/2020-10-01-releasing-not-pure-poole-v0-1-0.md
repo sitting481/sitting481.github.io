@@ -27,7 +27,7 @@ This is a project that uses multiple machine learning models to predict the risk
 
 本项目围绕糖尿病二分类预测需求，选择 6 种基础算法与 3 种集成学习方法构建模型，包括Logistic Regression、Random Forest、Decision Tree、SVC，以及 Bagging、AdaBoost、GradientBoosting。数据层面，从糖尿病数据集（含怀孕次数、血糖等 8 个特征）中，按 78:22 比例划分训练集与测试集。采用多维度指标评估模型性能，核心包括交叉验证得分、训练集与测试集的准确率，以及分类报告中的precision、recall、f1-score。
 
-![](/images/Split.png)
+![糖尿病预测模型架构图](/images/diabetes-model-architecture.png)
 
 ## Result Analysis
 
@@ -35,19 +35,27 @@ This is a project that uses multiple machine learning models to predict the risk
 从整体结果看，逻辑回归是综合性能最优的模型，兼顾高测试集准确率（81.66%）与无过拟合问题，适合糖尿病初步预测场景；集成方法中，Bagging 与 AdaBoost 泛化能力良好，GradientBoosting（测试集准确率 76.92%）性能均衡稳定，可作为备选模型；SVM 虽在各数据集上得分均匀，但整体准确率偏低，实用性较弱；决策树因严重过拟合，难以应用于实际场景。
 
 ![Logistic Regression结果图](/images/model-result-2.png)
+*Logistic Regression结果图*
 
 ![Random Forest结果图](/images/model-result-3.png)
+*Random Forest结果图*
 
 ![Decision Tree结果图](/images/model-result-4.png)
+*Decision Tree结果图*
 
 ![Bagging结果图](/images/model-result-5.png)
+*Bagging结果图*
 
 ![AdaBoost结果图](/images/model-result-6.png)
+*AdaBoost结果图*
 
 ![GradientBoosting结果图](/images/model-result-7.png)
+*GradientBoosting结果图*
 
 ![SVC结果图](/images/model-result-8.png)
+*SVC结果图*
 
 ## Personal reflection
 
 在这个课程项目中，我学习了机器学习技术在医疗数据分析领域的核心概念与实践方法，包括逻辑回归、随机森林等算法的适用场景与参数调优以及如何将算法性能与医疗实际需求结合。这个项目对我来说是一次宝贵的技术成长经历，巩固了我在机器学习与医疗数据处理领域的技能。
+
