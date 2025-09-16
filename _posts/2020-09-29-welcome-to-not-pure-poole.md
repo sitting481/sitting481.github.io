@@ -44,28 +44,43 @@ As the project progressed, I added more features: product lists, detail pages, s
 The project developed multiple core pages, including functional modules such as user authentication, product display, shopping cart management, and personal center. In terms of feature implementation, I built a complete e-commerce business workflow: users can log in via WeChat authorization, browse product lists and details, add desired items to the shopping cart, submit orders, and manage personal information.
 
 
-*WeChat Mini Program Homepage Interface*
-![主页](/images/wechat-home.jpg)
+
+![主页](<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr>
+<td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/wechat-home.jpg" alt="微信小程序主页界面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序主页界面</p>
+</td>
+<td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/wechat-menu.jpg" alt="微信小程序菜单页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序菜单页面</p>
+</td>
+<td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/wechat-order.jpg" alt="微信小程序订单页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序订单页面</p>
+</td>
+</tr>
+</table>)
 
 
-*WeChat Mini Program Menu Page*
-![菜单页](/images/wechat-menu.jpg)
 
+![菜单页](<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr>
+<td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/wechat-home.jpg" alt="微信小程序主页界面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序主页界面</p>
+</td>
+<td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/wechat-menu.jpg" alt="微信小程序菜单页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序菜单页面</p>
+</td>
+<td style="width: 33.33%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/wechat-order.jpg" alt="微信小程序订单页面" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">微信小程序订单页面</p>
+</td>
+</tr>
+</table>)
 
-*WeChat Mini Program Product Customization Page*
-![个性化定制页](/images/wechat-order.jpg)
-
-
-*WeChat Mini Program Shopping Cart Page*
-![购物车页](/images/wechat-shopcar.jpg)
-
-
-*WeChat Mini Program Refund Application Page*
-![退款申请页](/images/wechat-refund.jpg)
-
-
-*WeChat Mini Program Personal Center Page*
-![我的](/images/wechat-me.jpg)
 
 
 ## Personal reflection
