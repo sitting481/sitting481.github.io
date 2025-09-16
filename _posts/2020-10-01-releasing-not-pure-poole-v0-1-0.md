@@ -12,57 +12,57 @@ last_modified_at: 2025-03-10 11:08:25 +0800
 
 This is a project that uses multiple machine learning models to predict the risk of developing diabetes.
 
-## 目录
+## Table of Contents
 
-- [Project description and goal](#Project description and goal)
+- [Project Description and Goal](#Project Description and Goal)
 - [Model Selection and Training](#Model Selection and Training)
 - [Result Analysis](#Result Analysis)
-- [Personal reflection](#Personal reflection)
+- [Personal Reflection](#Personal Reflection)
 
-## Project description and goal
+## Project Description and Goal
 
-本项目聚焦糖尿病这一慢性代谢疾病，针对传统基于年龄、性别等静态因素的预测方法准确率有限的问题，旨在借助 scikit-learn 工具，运用多种机器学习算法构建糖尿病预测模型，提升预测准确性，为糖尿病早期筛查与干预提供技术支持。项目通过分析包含怀孕次数、血糖、血压等 8 个特征的糖尿病数据集，对比不同算法性能，最终筛选出适用于糖尿病预测的优质模型。
+This project focuses on diabetes, a chronic metabolic disease. Addressing the issue that traditional prediction methods—based on static factors such as age and gender—have limited accuracy, it aims to use the scikit-learn tool and various machine learning algorithms to build diabetes prediction models. The goal is to improve prediction accuracy and provide technical support for the early screening and intervention of diabetes. By analyzing a diabetes dataset containing 8 features (including the number of pregnancies, glucose levels, and blood pressure), the project compares the performance of different algorithms and ultimately selects high-quality models suitable for diabetes prediction.
 
 ## Model Selection and Training
 
-本项目围绕糖尿病二分类预测需求，选择 6 种基础算法与 3 种集成学习方法构建模型，包括Logistic Regression、Random Forest、Decision Tree、SVC，以及 Bagging、AdaBoost、GradientBoosting。数据层面，从糖尿病数据集（含怀孕次数、血糖等 8 个特征）中，按 78:22 比例划分训练集与测试集。采用多维度指标评估模型性能，核心包括交叉验证得分、训练集与测试集的准确率，以及分类报告中的precision、recall、f1-score。
+Centering on the demand for diabetes binary classification prediction, this project selects 6 basic algorithms and 3 ensemble learning methods to construct models, including Logistic Regression, Random Forest, Decision Tree, SVC, as well as Bagging, AdaBoost, and GradientBoosting. At the data level, from the diabetes dataset (containing 8 features such as the number of pregnancies and glucose levels), the dataset is divided into training and test sets at a ratio of 78:22. A multi-dimensional indicator system is adopted to evaluate model performance, with core indicators including cross-validation scores, accuracy rates of the training and test sets, as well as precision, recall, and f1-score from the classification report.
 
-![糖尿病预测模型架构图](/images/Split.png)
+![数据集分割图](/images/Split.png)
 
 ## Result Analysis
 
-逻辑回归表现稳定，交叉验证得分 76.83%、训练集准确率 76.13%、测试集准确率 81.66%，三者接近无过拟合；随机森林训练集准确率达 100%，但交叉验证（77.09%）与测试集（80.47%）得分差距明显，存在过拟合风险；决策树过拟合最严重，训练集 100% 准确率对应测试集仅 72.19%。此外，分类报告显示多数模型对疾病类（Outcome=1）召回率偏低，如逻辑回归 1 类召回率 61%，反映模型对患病样本的识别能力待提升。
-从整体结果看，逻辑回归是综合性能最优的模型，兼顾高测试集准确率（81.66%）与无过拟合问题，适合糖尿病初步预测场景；集成方法中，Bagging 与 AdaBoost 泛化能力良好，GradientBoosting（测试集准确率 76.92%）性能均衡稳定，可作为备选模型；SVM 虽在各数据集上得分均匀，但整体准确率偏低，实用性较弱；决策树因严重过拟合，难以应用于实际场景。
+Logistic Regression showed stable performance, with a cross-validation score of 76.83%, a training set accuracy of 76.13%, and a test set accuracy of 81.66%. The three values are close, indicating no overfitting. For Random Forest, the training set accuracy reached 100%, but there was a significant gap between the cross-validation score (77.09%) and the test set accuracy (80.47%), posing a risk of overfitting. Decision Tree suffered from the most severe overfitting: while it achieved 100% accuracy on the training set, its accuracy on the test set was only 72.19%. Additionally, the classification report revealed that most models had low recall rates for the disease class (Outcome=1); for example, Logistic Regression had a recall rate of 61% for Class 1, which reflects that the models' ability to identify disease samples needs improvement.
 
-*Logistic Regression结果图*
+From the overall results, Logistic Regression was the model with the best comprehensive performance. It balanced high test set accuracy (81.66%) and no overfitting, making it suitable for initial diabetes prediction scenarios. Among the ensemble methods, Bagging and AdaBoost had good generalization ability, while GradientBoosting (with a test set accuracy of 76.92%) delivered balanced and stable performance, so both could serve as alternative models. Although SVM achieved uniform scores across all datasets, it had relatively low overall accuracy and limited practicality. Due to severe overfitting, Decision Tree was difficult to apply in practical scenarios.
+
+*Logistic Regression Result Graph*
 ![Logistic Regression结果图](/images/model-result-2.png)
 
 
-*Random Forest结果图*
+*Random Forest Result Graph*
 ![Random Forest结果图](/images/model-result-3.png)
 
 
-*Decision Tree结果图*
+*Decision Tree Result Graph*
 ![Decision Tree结果图](/images/model-result-4.png)
 
 
-*Bagging结果图*
+*Bagging Result Graph*
 ![Bagging结果图](/images/model-result-5.png)
 
 
-*AdaBoost结果图*
+*AdaBoost Result Graph*
 ![AdaBoost结果图](/images/model-result-6.png)
 
 
-*GradientBoosting结果图*
+*GradientBoosting Result Graph*
 ![GradientBoosting结果图](/images/model-result-7.png)
 
 
-*SVM结果图*
+*SVM Result Graph*
 ![SVC结果图](/images/model-result-8.png)
 
 
-## Personal reflection
+## Personal Reflection
 
-在这个课程项目中，我学习了机器学习技术在医疗数据分析领域的核心概念与实践方法，包括逻辑回归、随机森林等算法的适用场景与参数调优以及如何将算法性能与医疗实际需求结合。这个项目对我来说是一次宝贵的技术成长经历，巩固了我在机器学习与医疗数据处理领域的技能。
-
+During this course project, I learned the core concepts and practical methods of machine learning techniques in the field of medical data analysis, including the application scenarios and parameter tuning of algorithms such as Logistic Regression and Random Forest, as well as how to align algorithm performance with actual medical needs. This project was a valuable technical growth experience for me, which strengthened my skills in the fields of machine learning and medical data processing.
