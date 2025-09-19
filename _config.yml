@@ -1,4 +1,4 @@
-﻿# Setup
+# Setup
 title: Chen Siting
 description: "Guangzhou Nanfang College - Bachelor's degree in Software Engineering"
 url: https://sitting481.github.io
@@ -28,9 +28,6 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: sitting481
-  card: summary
 logo: logo.png
 social:
   name: Chen Siting
