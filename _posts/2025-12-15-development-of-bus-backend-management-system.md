@@ -42,17 +42,17 @@ The system provides operational data visualization (including annual average pas
 
 **User Experience Optimization**: Charts do not obscure navigation, cards adapt to content height, horizontal axis labels display completely, and exports are unified to xlsx format.
 
-<p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some screenshots of the project</p>
+<p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some pages of the project</p>
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-line.png" alt="Drawing of Bus Route Map" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Bus Line Management</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Drawing of Bus Route Map</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-linecheck.png" alt="Selection of Bus Route Map" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Bus Line Check</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Selection of Bus Route Map</p>
 </td>
 </tr>
 </table>
@@ -61,11 +61,11 @@ The system provides operational data visualization (including annual average pas
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-customize.png" alt="Customize report generation" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Customize View</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Customize report generation</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-flowchart-month.png" alt="Monthly Passenger Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Monthly Flow Chart</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Monthly Passenger Flow Chart</p>
 </td>
 </tr>
 </table>
@@ -74,11 +74,11 @@ The system provides operational data visualization (including annual average pas
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-flowchart-year.png" alt="Yearly Passenger Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Yearly Flow Chart</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Yearly Passenger Flow Chart</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-piechart.png" alt="Line Benefit Analysis Diagram" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Profitability Pie Chart</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Line Benefit Analysis Diagram</p>
 </td>
 </tr>
 </table>
@@ -87,7 +87,7 @@ The system provides operational data visualization (including annual average pas
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 <img src="/images/bus-occupancy.png" alt="Average Passenger Capacity Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="margin-top: 8px; font-size: 14px; color: #666;">Passenger Occupancy Rate</p>
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Average Passenger Capacity Chart</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
 </td>
