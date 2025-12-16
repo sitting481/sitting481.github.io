@@ -24,13 +24,19 @@ The system provides operational data visualization (including annual average pas
 
 ## Learning and Execution Process
 
-**Requirements Analysis and Interface Design**: Referenced existing management dashboard styles, adopted a tab-based and card-style layout to ensure the sidebar and top bar are not obscured, and unified year filtering and date selection rules.
+Upon completing my internship at Foshan Automobile Transport Group Co., Ltd., I gained a deep understanding of the functional requirements and system design logic in actual enterprise operations. Inspired by this experience, I decided to independently design and develop a backend management system tailored to real business scenarios to address potential pain points in daily enterprise operations. During the system design process, I referenced architectural approaches from various excellent management systems on open-source platforms and progressively advanced the project implementation.
 
-**Frontend Implementation**: Used Vue Composition API and ECharts to build chart components, handling rendering timing (v-if, nextTick/setTimeout), responsive sizing, and axis/grid optimization. Element Plus was used for filter forms and paginated tables. Export functionality was implemented using xlsx.
+Stage 1: Frontend Development
+I focused on user interaction and data visualization, primarily implementing an online route inquiry and map display feature that enables the dynamic visualization of routes, stops, and real-time schedules. Additionally, I built an operational statistics dashboard integrating three core data visualizations: a trend line chart comparing the annual average passenger load rates across all routes by year, a pie chart analyzing revenue distribution by route, and a line chart showing monthly aggregated passenger flow distribution. The system also provides a comprehensive business management interface and flexible report export functionality, significantly enhancing operational efficiency and data portability.
 
-**Backend Implementation**: Wrote aggregate SQL queries in MyBatis, optimized grouping and subqueries for only_full_group_by mode. Unified order status filtering to paid/finished. Added passenger capacity fields and passenger load rate calculations. Removed PDF generation and retained Excel export functionality.
+Stage 2: Backend Service Development
+Leveraging the Spring Boot framework, I constructed a complete backend service system that offers management interfaces for core business modules such as routes, schedules, vehicles, drivers, and orders. The backend also supports operational statistics and report generation functionalities. Through aggregated queries, it dynamically calculates key metrics, including the annual average passenger load rate per route, revenue distribution by route, and monthly passenger flow distribution. All data list interfaces utilize backend pagination to ensure query performance and response efficiency when handling large datasets.
 
-**Testing and Iteration**: Based on feedback, made multiple adjustments to chart sizing, grids, axis scales, and data filtering logic, fixing issues such as no data scenarios, SQL errors, and export exceptions.
+Stage 3: System Testing and Validation
+I conducted comprehensive interface and functional testing, covering CRUD operations for business entities (routes, schedules, vehicles, drivers, and orders), the three types of operational statistics interfaces (annual average passenger load rate, revenue distribution by route, and monthly passenger flow distribution), as well as custom report generation and Excel export functionalities. Additionally, I performed thorough functional and compatibility testing on frontend interaction flows and visualization components to ensure system stability and reliability.
+
+Stage 4: Deployment and Launch
+I packaged the frontend static resources and backend Java application separately and deployed them to a local server environment. By configuring domain name resolution, SSL certificates, and system monitoring services, I successfully completed the official release and online deployment of the system, achieving a full-cycle closure from development to launch.
 
 ## Project Achievements
 
