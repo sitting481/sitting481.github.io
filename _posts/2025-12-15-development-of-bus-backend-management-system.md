@@ -47,11 +47,11 @@ The system provides operational data visualization (including annual average pas
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-line.png" alt="Bus Line Management" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-line.png" alt="Drawing of Bus Route Map" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Bus Line Management</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-linecheck.png" alt="Bus Line Check" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-linecheck.png" alt="Selection of Bus Route Map" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Bus Line Check</p>
 </td>
 </tr>
@@ -60,11 +60,11 @@ The system provides operational data visualization (including annual average pas
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-customize.png" alt="Customize View" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-customize.png" alt="Customize report generation" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Customize View</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-flowchart-month.png" alt="Monthly Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-flowchart-month.png" alt="Monthly Passenger Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Monthly Flow Chart</p>
 </td>
 </tr>
@@ -73,11 +73,11 @@ The system provides operational data visualization (including annual average pas
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-flowchart-year.png" alt="Yearly Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-flowchart-year.png" alt="Yearly Passenger Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Yearly Flow Chart</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-piechart.png" alt="Profitability Pie Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-piechart.png" alt="Line Benefit Analysis Diagram" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Profitability Pie Chart</p>
 </td>
 </tr>
@@ -86,7 +86,7 @@ The system provides operational data visualization (including annual average pas
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
 <tr>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
-<img src="/images/bus-occupancy.png" alt="Passenger Occupancy Rate" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/images/bus-occupancy.png" alt="Average Passenger Capacity Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="margin-top: 8px; font-size: 14px; color: #666;">Passenger Occupancy Rate</p>
 </td>
 <td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
