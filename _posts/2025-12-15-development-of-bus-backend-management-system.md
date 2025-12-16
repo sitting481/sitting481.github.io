@@ -2,7 +2,8 @@
 layout: post
 title: Development of Bus Backend Management System
 author: Siting Chen
-date: 2025-12-15 09:00 +0800
+date: 2025-09-01 09:00 +0800
+last_modified_at: 2025-12-15 09:08:25 +0800
 tags: [bus management, full-stack, backend, frontend]
 ---
 
@@ -20,6 +21,58 @@ This is a front-end and back-end separated bus operation management system appli
 This is a bus operation management system built with Vue3 + Element Plus + ECharts on the frontend and Spring Boot + MyBatis + MySQL on the backend, covering route management, trip scheduling, vehicle tracking, driver management, order processing, and operational statistics.
 
 The system provides operational data visualization (including annual average passenger load rates by route, route profitability, and hourly passenger flow distribution), order and vehicle management, and report export functionality (Excel), aiming to improve dispatch decision-making and daily operational efficiency.
+
+<p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some screenshots of the project</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-line.png" alt="Bus Line Management" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Bus Line Management</p>
+</td>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-linecheck.png" alt="Bus Line Check" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Bus Line Check</p>
+</td>
+</tr>
+</table>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-customize.png" alt="Customize View" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Customize View</p>
+</td>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-flowchart-month.png" alt="Monthly Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Monthly Flow Chart</p>
+</td>
+</tr>
+</table>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-flowchart-year.png" alt="Yearly Flow Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Yearly Flow Chart</p>
+</td>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-piechart.png" alt="Profitability Pie Chart" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Profitability Pie Chart</p>
+</td>
+</tr>
+</table>
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+<tr>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+<img src="/images/bus-occupancy.png" alt="Passenger Occupancy Rate" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="margin-top: 8px; font-size: 14px; color: #666;">Passenger Occupancy Rate</p>
+</td>
+<td style="width: 50%; text-align: center; padding: 10px; vertical-align: top;">
+</td>
+</tr>
+</table>
 
 ## Learning and Execution Process
 
