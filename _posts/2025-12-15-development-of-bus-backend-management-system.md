@@ -40,13 +40,7 @@ I packaged the frontend static resources and backend Java application separately
 
 ## Project Achievements
 
-**Operational Data Dashboard**: Year-over-year comparison of annual average passenger load rates across all routes, route profitability distribution, and hourly (monthly) passenger flow distribution, with support for refresh and year switching.
-
-**Management Features**: Query, pagination, and Excel export for orders, vehicles, drivers, and safety records. Date selection is limited to the range of 2024-2026.
-
-**Data Consistency**: Passenger capacity is calculated based on paid and finished orders, capacity is taken from the rated passenger capacity of route vehicles. Route profitability statistics include paid and completed orders without deduplicating passenger counts.
-
-**User Experience Optimization**: Charts do not obscure navigation, cards adapt to content height, horizontal axis labels display completely, and exports are unified to xlsx format.
+This project developed multiple core pages, with functionalities covering bus operation inquiry, management, and statistics. These include: a route map query system that displays lines, stations, and schedules; filterable and paginated management interfaces for orders, vehicles, drivers, and safety records with Excel export capabilities; a custom report generator that produces and exports reports based on specified conditions; and an operational data dashboard offering three key visualizations: annual average passenger load rate comparisons across all lines, line revenue distribution, and monthly passenger flow distribution.
 
 <p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some pages of the project</p>
 
@@ -102,8 +96,4 @@ I packaged the frontend static resources and backend Java application separately
 
 ## Personal Reflection
 
-Through multiple rounds of feedback, I learned the importance of frontend layout details and chart rendering timing. Proper min-height, grid layouts, and delayed rendering can significantly improve visualization performance.
-
-Backend aggregation requires careful grouping in strict SQL mode. Status values and time filtering must align with real data, otherwise "no data" scenarios can easily occur.
-
-Unified status enums, year/date constraints, and export formats can reduce communication overhead between frontend and backend, improving user experience.
+Through the comprehensive implementation of this project, I have achieved substantial breakthroughs in full-stack development capabilities. On the frontend side, I mastered the core techniques for transforming business data into interactive visualizations, utilizing ECharts to build professional-grade data dashboards. I delved into resolving critical challenges such as rendering sequence control, cross-device responsive design, and fine-grained axis configuration, ensuring both clarity and professionalism in data presentation. On the backend side, I systematically honed my ability to write complex aggregation queries in SQL, accurately designing statistical metric models based on business logic. Additionally, I established standardized interface specifications and a robust data export framework, thereby enhancing the rigor of the system architecture. This experience has not only solidified my technical skill set but also cultivated my ability to holistically manage the transition from business requirements to technical implementation. It has laid a solid foundation for me to take on more complex responsibilities in system architecture design and product iteration in the future.
