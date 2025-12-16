@@ -22,6 +22,26 @@ This is a bus operation management system built with Vue3 + Element Plus + EChar
 
 The system provides operational data visualization (including annual average passenger load rates by route, route profitability, and hourly passenger flow distribution), order and vehicle management, and report export functionality (Excel), aiming to improve dispatch decision-making and daily operational efficiency.
 
+## Learning and Execution Process
+
+**Requirements Analysis and Interface Design**: Referenced existing management dashboard styles, adopted a tab-based and card-style layout to ensure the sidebar and top bar are not obscured, and unified year filtering and date selection rules.
+
+**Frontend Implementation**: Used Vue Composition API and ECharts to build chart components, handling rendering timing (v-if, nextTick/setTimeout), responsive sizing, and axis/grid optimization. Element Plus was used for filter forms and paginated tables. Export functionality was implemented using xlsx.
+
+**Backend Implementation**: Wrote aggregate SQL queries in MyBatis, optimized grouping and subqueries for only_full_group_by mode. Unified order status filtering to paid/finished. Added passenger capacity fields and passenger load rate calculations. Removed PDF generation and retained Excel export functionality.
+
+**Testing and Iteration**: Based on feedback, made multiple adjustments to chart sizing, grids, axis scales, and data filtering logic, fixing issues such as no data scenarios, SQL errors, and export exceptions.
+
+## Project Achievements
+
+**Operational Data Dashboard**: Year-over-year comparison of annual average passenger load rates across all routes, route profitability distribution, and hourly (monthly) passenger flow distribution, with support for refresh and year switching.
+
+**Management Features**: Query, pagination, and Excel export for orders, vehicles, drivers, and safety records. Date selection is limited to the range of 2024-2026.
+
+**Data Consistency**: Passenger capacity is calculated based on paid and finished orders, capacity is taken from the rated passenger capacity of route vehicles. Route profitability statistics include paid and completed orders without deduplicating passenger counts.
+
+**User Experience Optimization**: Charts do not obscure navigation, cards adapt to content height, horizontal axis labels display completely, and exports are unified to xlsx format.
+
 <p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some screenshots of the project</p>
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -73,26 +93,6 @@ The system provides operational data visualization (including annual average pas
 </td>
 </tr>
 </table>
-
-## Learning and Execution Process
-
-**Requirements Analysis and Interface Design**: Referenced existing management dashboard styles, adopted a tab-based and card-style layout to ensure the sidebar and top bar are not obscured, and unified year filtering and date selection rules.
-
-**Frontend Implementation**: Used Vue Composition API and ECharts to build chart components, handling rendering timing (v-if, nextTick/setTimeout), responsive sizing, and axis/grid optimization. Element Plus was used for filter forms and paginated tables. Export functionality was implemented using xlsx.
-
-**Backend Implementation**: Wrote aggregate SQL queries in MyBatis, optimized grouping and subqueries for only_full_group_by mode. Unified order status filtering to paid/finished. Added passenger capacity fields and passenger load rate calculations. Removed PDF generation and retained Excel export functionality.
-
-**Testing and Iteration**: Based on feedback, made multiple adjustments to chart sizing, grids, axis scales, and data filtering logic, fixing issues such as no data scenarios, SQL errors, and export exceptions.
-
-## Project Achievements
-
-**Operational Data Dashboard**: Year-over-year comparison of annual average passenger load rates across all routes, route profitability distribution, and hourly (monthly) passenger flow distribution, with support for refresh and year switching.
-
-**Management Features**: Query, pagination, and Excel export for orders, vehicles, drivers, and safety records. Date selection is limited to the range of 2024-2026.
-
-**Data Consistency**: Passenger capacity is calculated based on paid and finished orders, capacity is taken from the rated passenger capacity of route vehicles. Route profitability statistics include paid and completed orders without deduplicating passenger counts.
-
-**User Experience Optimization**: Charts do not obscure navigation, cards adapt to content height, horizontal axis labels display completely, and exports are unified to xlsx format.
 
 ## Personal Reflection
 
