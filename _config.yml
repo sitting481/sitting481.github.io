@@ -1,6 +1,6 @@
 # Setup
-title: Chen Siting
-description: "Guangzhou Nanfang College - Bachelor's degree in Software Engineering"
+title: ChenSiting
+description: "HongKong Baptist University - Master's degree in Operations Research and Business Statistics"
 url: https://sitting481.github.io
 avatar: /avatar.jpeg
 paginate: 5
@@ -50,6 +50,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Chen Siting
+  name: ChenSiting
   url: https://github.com/sitting481/
   email: sitting481@gmail.com
