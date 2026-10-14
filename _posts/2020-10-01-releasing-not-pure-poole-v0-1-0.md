@@ -1,16 +1,17 @@
 ﻿---
 layout: post
 title: Prediction of diabetes using scikit-learn
-author: Siting Chen
+author: ChenSiting
 tags:
 - machine learning
-- scikit-learn
-- diabetes prediction
-date: 2025-02-19 13:56 +0800
-last_modified_at: 2025-03-10 11:08:25 +0800
+- data analysis
+- data cleaning
+- data visualization
+date: 2025-02-01 13:56 +0800
+last_modified_at: 2025-03-30 11:08:25 +0800
 ---
 
-This is a project that uses multiple machine learning models to predict the risk of developing diabetes.
+This project uses the UCI diabetes dataset to build and evaluate machine learning models for diabetes risk prediction, with a focus on data preprocessing, model comparison, and data-driven decision support for early screening.
 
 ## Table of Contents
 
@@ -21,19 +22,19 @@ This is a project that uses multiple machine learning models to predict the risk
 
 ## Project Description and Goal
 
-This project focuses on diabetes, a chronic metabolic disease. Addressing the issue that traditional prediction methodsbased on static factors such as age and genderhave limited accuracy, it aims to use the scikit-learn tool and various machine learning algorithms to build diabetes prediction models. The goal is to improve prediction accuracy and provide technical support for the early screening and intervention of diabetes. By analyzing a diabetes dataset containing 8 features (including the number of pregnancies, glucose levels, and blood pressure), the project compares the performance of different algorithms and ultimately selects high-quality models suitable for diabetes prediction.
+Diabetes is a chronic metabolic disease. Traditional prediction methods based on static factors such as age and gender often have limited accuracy. Using scikit-learn and multiple machine learning algorithms, I built and compared diabetes prediction models to improve prediction accuracy and support early screening and intervention. The dataset contains eight features, including number of pregnancies, glucose level, and blood pressure. I compared model performance and selected a high-quality, interpretable model suitable for diabetes prediction.
 
-## Model Selection and Training
+## Data Preparation and Modeling
 
-Centering on the demand for diabetes binary classification prediction, this project selects 6 basic algorithms and 3 ensemble learning methods to construct models, including Logistic Regression, Random Forest, Decision Tree, SVC, as well as Bagging, AdaBoost, and GradientBoosting. At the data level, from the diabetes dataset (containing 8 features such as the number of pregnancies and glucose levels), the dataset is divided into training and test sets at a ratio of 78:22. A multi-dimensional indicator system is adopted to evaluate model performance, with core indicators including cross-validation scores, accuracy rates of the training and test sets, as well as precision, recall, and f1-score from the classification report.
+I performed data cleaning, outlier removal, and feature standardization on the UCI diabetes dataset. To reduce sampling bias, I used stratified sampling to split the data into training and test sets at a 78:22 ratio. I implemented seven models: Logistic Regression, Random Forest, Decision Tree, SVC, Bagging, AdaBoost, and Gradient Boosting. I applied 5-fold cross-validation and evaluated model performance using cross-validation scores, training and test accuracy, precision, recall, and F1-score.
 
 ![数据集分割图](/images/Split.png)
 
-## Result Analysis
+## Result and Analysis
 
-Logistic Regression showed stable performance, with a cross-validation score of 76.83%, a training set accuracy of 76.13%, and a test set accuracy of 81.66%. The three values are close, indicating no overfitting. For Random Forest, the training set accuracy reached 100%, but there was a significant gap between the cross-validation score (77.09%) and the test set accuracy (80.47%), posing a risk of overfitting. Decision Tree suffered from the most severe overfitting: while it achieved 100% accuracy on the training set, its accuracy on the test set was only 72.19%. Additionally, the classification report revealed that most models had low recall rates for the disease class (Outcome=1); for example, Logistic Regression had a recall rate of 61% for Class 1, which reflects that the models' ability to identify disease samples needs improvement.
+Logistic Regression showed stable performance: a cross-validation score of 76.83%, training accuracy of 76.13%, and test accuracy of 81.66%. The values were close, indicating no obvious overfitting. Random Forest reached 100% training accuracy, but the gap between its cross-validation score (77.09%) and test accuracy (80.47%) suggested a risk of overfitting. Decision Tree had the most severe overfitting: 100% training accuracy but only 72.19% test accuracy. In addition, the classification reports showed that most models had low recall for the disease class (Outcome = 1). For example, Logistic Regression had a recall of 61% for Class 1, indicating that the models’ ability to identify disease samples still needed improvement.
 
-From the overall results, Logistic Regression was the model with the best comprehensive performance. It balanced high test set accuracy (81.66%) and no overfitting, making it suitable for initial diabetes prediction scenarios. Among the ensemble methods, Bagging and AdaBoost had good generalization ability, while GradientBoosting (with a test set accuracy of 76.92%) delivered balanced and stable performance, so both could serve as alternative models. Although SVM achieved uniform scores across all datasets, it had relatively low overall accuracy and limited practicality. Due to severe overfitting, Decision Tree was difficult to apply in practical scenarios.
+Overall, Logistic Regression delivered the best comprehensive performance. It balanced high test accuracy (81.66%), no obvious overfitting, and high interpretability, making it suitable for initial diabetes prediction. Among ensemble methods, Bagging and AdaBoost showed good generalization, while Gradient Boosting achieved balanced and stable performance with 76.92% test accuracy; these ensemble models could serve as alternative options. Although SVC produced relatively consistent scores across datasets, its overall accuracy was lower and its practical value was limited. Due to severe overfitting, Decision Tree was difficult to apply in real scenarios.
 
 *Logistic Regression Result Graph*
 ![Logistic Regression结果图](/images/model-result-2.png)
@@ -58,4 +59,4 @@ From the overall results, Logistic Regression was the model with the best compre
 
 ## Personal Reflection
 
-During this course project, I learned the core concepts and practical methods of machine learning techniques in the field of medical data analysis, including the application scenarios and parameter tuning of algorithms such as Logistic Regression and Random Forest, as well as how to align algorithm performance with actual medical needs. This project was a valuable technical growth experience for me, which strengthened my skills in the fields of machine learning and medical data processing.
+Through this project, I learned core machine learning concepts and practical methods for medical data analysis, including algorithm application and parameter tuning for Logistic Regression and Random Forest, and how to align model performance with real medical needs. This project strengthened my skills in data preprocessing, model evaluation, overfitting control, and medical data analysis.
