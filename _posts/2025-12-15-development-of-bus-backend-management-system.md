@@ -44,11 +44,10 @@ I packaged the front-end static resources and back-end Java application separate
 ## Project Achievements
 
 This project delivered multiple core pages and functions for bus operation inquiry, management, and statistics. These include:
-
 · A route map query system that displays routes, stations, and schedules.
 · Filterable and paginated management interfaces for orders, vehicles, drivers, and safety records, with Excel export capabilities.
 · A custom report generator that produces and exports reports based on specified conditions.
-· An operational data dashboard with three key visualizations: annual average passenger load rate comparisons across routes, route revenue · distribution, and monthly passenger flow distribution.
+· An operational data dashboard with three key visualizations: annual average passenger load rate comparisons across routes, route revenue distribution, and monthly passenger flow distribution.
 
 <p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some pages of the project</p>
 
