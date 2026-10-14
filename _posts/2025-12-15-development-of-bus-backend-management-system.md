@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Development of Bus Backend Management System
-author: Siting Chen
+title: Bus Operations Management & Analytics System
+author: ChenSiting
 date: 2025-09-01 09:00 +0800
-last_modified_at: 2025-12-15 09:08:25 +0800
-tags: [bus management, full-stack, backend, frontend]
+last_modified_at: 2026-04-15 09:08:25 +0800
+tags: [bus management, data analysis, data visualization, full-stack]
 ---
 
-This is a front-end and back-end separated bus operation management system application covering businesses such as routes, trips, vehicles, drivers, and orders.
 
 ## Table of Contents
 
@@ -18,33 +17,38 @@ This is a front-end and back-end separated bus operation management system appli
 
 ## Project Description and Goal
 
-This is a bus operation management system built with Vue3 + Element Plus + ECharts on the frontend and Spring Boot + MyBatis + MySQL on the backend, covering route management, trip scheduling, vehicle tracking, driver management, order processing, and operational statistics.
+This is a bus operations management and analytics system with a separated front-end/back-end architecture. The front end is built with Vue 3, Element Plus, and ECharts, while the back end uses Spring Boot, MyBatis, and MySQL. It covers route management, trip scheduling, vehicle tracking, driver management, order processing, and operational statistics.
 
-The system provides operational data visualization (including annual average passenger load rates by route, route profitability, and hourly passenger flow distribution), order and vehicle management, and report export functionality (Excel), aiming to improve dispatch decision-making and daily operational efficiency.
+The system integrates route, trip, vehicle, driver, and order data into a unified operational dataset and provides interactive data visualization, order and vehicle management, and Excel report export. Its dashboards include annual average passenger load rates by route, route revenue distribution and profitability analysis, and monthly passenger flow distribution, supporting dispatch decision-making and daily operational efficiency.
 
 ## Learning and Execution Process
 
-Upon completing my internship at Foshan Automobile Transport Group Co., Ltd., I gained a deep understanding of the functional requirements and system design logic in actual enterprise operations. Inspired by this experience, I decided to independently design and develop a backend management system tailored to real business scenarios to address potential pain points in daily enterprise operations. During the system design process, I referenced architectural approaches from various excellent management systems on open-source platforms and progressively advanced the project implementation.
+After completing my internship at Foshan Automobile Transport Group Co., Ltd., I gained a clear understanding of real business requirements and system design logic in bus operations. Inspired by this experience, I independently designed and developed this system to address practical pain points in operational data management and decision-making. I referred to architectural approaches from open-source management systems and advanced the project in four stages.
 
-Stage 1: Frontend Development
+Stage 1: Frontend Development and Data Visualization
 
-I focused on user interaction and data visualization, primarily implementing an online route inquiry and map display feature that enables the dynamic visualization of routes, stops, and real-time schedules. Additionally, I built an operational statistics dashboard integrating three core data visualizations: a trend line chart comparing the annual average passenger load rates across all routes by year, a pie chart analyzing revenue distribution by route, and a line chart showing monthly aggregated passenger flow distribution. The system also provides a comprehensive business management interface and flexible report export functionality, significantly enhancing operational efficiency and data portability.
+I focused on user interaction and data visualization. I implemented online route inquiry and map display, enabling dynamic visualization of routes, stops, and schedules. I also built an operational statistics dashboard with three core visualizations: a trend line chart comparing annual average passenger load rates across routes, a pie chart analyzing revenue distribution by route, and a line chart showing monthly aggregated passenger flow. The system also provides a comprehensive business management interface and flexible report export, improving operational efficiency and data accessibility.
 
-Stage 2: Backend Service Development
+Stage 2: Back-End Service and Data Analysis
 
-Leveraging the Spring Boot framework, I constructed a complete backend service system that offers management interfaces for core business modules such as routes, schedules, vehicles, drivers, and orders. The backend also supports operational statistics and report generation functionalities. Through aggregated queries, it dynamically calculates key metrics, including the annual average passenger load rate per route, revenue distribution by route, and monthly passenger flow distribution. All data list interfaces utilize backend pagination to ensure query performance and response efficiency when handling large datasets.
+Using Spring Boot, I built a complete back-end service system with management interfaces for core business modules such as routes, schedules, vehicles, drivers, and orders. The back end also supports operational statistics and report generation. Through SQL aggregation queries, it dynamically calculates key metrics, including annual average passenger load rate by route, revenue distribution by route, and monthly passenger flow. All list interfaces use back-end pagination to ensure query performance and response efficiency for large datasets.
 
 Stage 3: System Testing and Validation
 
-I conducted comprehensive interface and functional testing, covering CRUD operations for business entities (routes, schedules, vehicles, drivers, and orders), the three types of operational statistics interfaces (annual average passenger load rate, revenue distribution by route, and monthly passenger flow distribution), as well as custom report generation and Excel export functionalities. Additionally, I performed thorough functional and compatibility testing on frontend interaction flows and visualization components to ensure system stability and reliability.
+I conducted comprehensive interface and functional testing, covering CRUD operations for routes, schedules, vehicles, drivers, and orders; three types of operational statistics interfaces; and custom report generation and Excel export. I also performed functional and compatibility testing on front-end interaction flows and visualization components to ensure system stability and reliability.
 
 Stage 4: Deployment and Launch
 
-I packaged the frontend static resources and backend Java application separately and deployed them to a local server environment. By configuring domain name resolution, SSL certificates, and system monitoring services, I successfully completed the official release and online deployment of the system, achieving a full-cycle closure from development to launch.
+I packaged the front-end static resources and back-end Java application separately and deployed them to a local server environment. By configuring domain name resolution, SSL certificates, and system monitoring services, I completed the official release and online deployment, achieving a full development-to-deployment lifecycle.
 
 ## Project Achievements
 
-This project developed multiple core pages, with functionalities covering bus operation inquiry, management, and statistics. These include: a route map query system that displays lines, stations, and schedules; filterable and paginated management interfaces for orders, vehicles, drivers, and safety records with Excel export capabilities; a custom report generator that produces and exports reports based on specified conditions; and an operational data dashboard offering three key visualizations: annual average passenger load rate comparisons across all lines, line revenue distribution, and monthly passenger flow distribution.
+This project delivered multiple core pages and functions for bus operation inquiry, management, and statistics. These include:
+
+· A route map query system that displays routes, stations, and schedules.
+· Filterable and paginated management interfaces for orders, vehicles, drivers, and safety records, with Excel export capabilities.
+· A custom report generator that produces and exports reports based on specified conditions.
+· An operational data dashboard with three key visualizations: annual average passenger load rate comparisons across routes, route revenue · distribution, and monthly passenger flow distribution.
 
 <p style="text-align: center; font-size: 14px; color: #666; margin: 20px 0;">Below are some pages of the project</p>
 
@@ -100,7 +104,4 @@ This project developed multiple core pages, with functionalities covering bus op
 
 ## Personal Reflection
 
-Through the comprehensive implementation of this project, I have achieved substantial breakthroughs in full-stack development capabilities. 
-On the frontend side, I mastered the core techniques for transforming business data into interactive visualizations, utilizing ECharts to build professional-grade data dashboards. I delved into resolving critical challenges such as rendering sequence control, cross-device responsive design, and fine-grained axis configuration, ensuring both clarity and professionalism in data presentation. 
-On the backend side, I systematically honed my ability to write complex aggregation queries in SQL, accurately designing statistical metric models based on business logic. Additionally, I established standardized interface specifications and a robust data export framework, thereby enhancing the rigor of the system architecture. 
-This experience has not only solidified my technical skill set but also cultivated my ability to holistically manage the transition from business requirements to technical implementation. It has laid a solid foundation for me to take on more complex responsibilities in system architecture design and product iteration in the future.
+Through this project, I achieved substantial progress in full-stack development and data analytics. On the front end, I learned how to transform business data into interactive visualizations and used ECharts to build professional data dashboards. I addressed challenges such as rendering sequence control, responsive design, and detailed axis configuration, ensuring clear and professional data presentation. On the back end, I strengthened my ability to write complex SQL aggregation queries and design statistical metric models based on business logic. I also established standardized API specifications and a robust data export framework, improving the rigor of the system architecture. This experience not only consolidated my technical skills but also improved my ability to manage the transition from business requirements to technical implementation, laying a solid foundation for future work in data analysis and system design.
