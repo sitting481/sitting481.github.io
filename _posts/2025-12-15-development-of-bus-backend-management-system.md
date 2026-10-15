@@ -7,6 +7,7 @@ last_modified_at: 2026-04-15 09:08:25 +0800
 tags: [bus management, data analysis, data visualization, full-stack]
 ---
 
+Bus Operations Management & Analytics System (awarded the Outstanding Graduation Project Award): A Vue3 + Spring Boot + MySQL system that integrates route, trip, vehicle, driver, and order data with SQL-based analytics, ECharts dashboards, and Excel report export.
 
 ## Table of Contents
 
